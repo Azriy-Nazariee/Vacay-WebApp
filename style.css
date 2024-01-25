@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh; /* This will center vertically. Remove if not needed */
+    height: 90vh; /* This will center vertically. Remove if not needed */
     width: 80vw; /* This will center horizontally. Remove if not needed */
     background-color: #412F81;
     color : white;
