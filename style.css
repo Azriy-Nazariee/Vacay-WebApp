@@ -1,0 +1,113 @@
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* This will center vertically. Remove if not needed */
+    width: 80vw; /* This will center horizontally. Remove if not needed */
+    background-color: #412F81;
+    color : white;
+    border-radius: 20px; /* Add this line */
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px; /* Add some space above the buttons */
+    color: #A768A3;
+    font-size: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px; /* Add some space above the buttons */
+    color: #A768A3;
+    font-size: 20px;
+}
+
+.button-container button {
+    padding: 10px 20px; /* Add some padding */
+    border: none; /* Remove border */
+    border-radius: 30px; /* Add some border radius */
+    background-color: #A768A3; /* Change background color */
+    width: 250px;
+    height: 60px;
+    color: #FAF1EF; /* Change text color */
+    font-size: 20px; /* Change font size */
+    cursor: pointer; /* Change cursor to pointer when hovering over the button */
+    transition: background-color 0.3s ease; /* Add transition for background color */
+}
+
+.button-container button:hover {
+    background-color: #7A4B7F; /* Change background color when hovering over the button */
+}
+
+.background {
+    background-color: #FAF1EF;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF1EF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input[type="text"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FAF1EF;
+    color: #A768A3;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+form input[type="password"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FAF1EF;
+    color: #A768A3;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #A768A3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+form input[type="submit"]:hover {
+    background-color: #7A4B7F;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Header {
+    background-color: #7A4B7F; /* replace with the color of your info box */
+    position: sticky;
+    top: 0;
+    z-index: 100; /* to ensure the header stays on top of other elements */
+}
