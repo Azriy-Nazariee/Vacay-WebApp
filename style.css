@@ -156,13 +156,13 @@ form {
 
 #footer4 {
     display: flex;
+    flex-direction: column; /* Add this line */
+    align-items: center; /* Add this line to center the items */
+    justify-content: center;
     background-color: #412F81;
     color: #FAF1EF;
-    align-items: center;
-    justify-content: center;
     padding-top: 20px;
     width: 100%;
-    padding-bottom: 20px;
 }
 /* Grid */
 
