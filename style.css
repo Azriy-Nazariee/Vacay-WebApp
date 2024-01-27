@@ -315,3 +315,27 @@ figure button {
     margin-bottom: 20px;
     border-radius: 20px;
 }
+
+#profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 20px; 
+    background-color: #FEFBF4;
+    border-radius: 20px;
+    border-color: #dbc48f;
+    border-style: solid;
+    
+}
+
+/*profile h1 and p*/
+
+#profile p {
+    margin-bottom: auto; /* Adjust this value as needed */
+}
+
+
