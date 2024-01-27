@@ -243,10 +243,21 @@ figure button {
 
 /* Navigation */
 #nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #dbc48f;
     display: none;
     position: absolute;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     top: 50px;
     right: 0px; /* Change this line */
+    position: right;
 }
 
 #nav-menu a {
