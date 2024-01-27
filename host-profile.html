@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="logo_and_images\favicon.png">
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="Header">
+        <img src="logo_and_images\logo.png" alt="logo", width="10%">
+        <div id="formBox">
+            <form id="formh">
+                <input type="text" id="location" name="location" placeholder="Location">
+                <input type="text" id="no of guest" name="no of guest" placeholder="No Guest">
+                <input type="text" id="date" name="date" placeholder="Date">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <button id="menu-button" style="width: 100px; height: 50px;">
+            <img src="logo_and_images\menu.png" style="width: 100%; height: auto;">
+        </button>
+        <div id="nav-menu" style="display: none; position: absolute; top: 50px; left: 0;">
+            <a href="profile.html">Profile</a>
+            <a href="booking.html">Booking Page</a>
+            <a href="refund.html">Refund</a>
+            <a href="history.html">Booking History</a>
+            <a href="main.html">Logout Account</a>
+        </div>
+    </header>
+    <div style="padding-top: 150px; margin-left: 15%; display: flex; align-items: center; width: fit-content;margin-bottom: 20px;">
+        <div style="background-color: aquamarine; width: 8vw; height: 8vw; border-radius: 50%; overflow: hidden; margin-right: 20px;"> <!-- Add margin-right here -->
+            <img src="logo_and_images\host.jpg" alt="user pic", style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+        </div>
+        <h1 style="font-size: 50px;"> Zahidah Zakaria </h1>
+    </div>
+    <div class="appbox">
+        <div class="profile" style="padding-top: 5%;">
+            <h2> Name: </h2>
+                <div id="details">
+                    <p> Zahidah Amelia Binti Dato Zakaria</p>
+                </div>
+            <h2> Email: </h2>
+            <div id="details">
+                <p> z.amelia98@gmail.com</p>
+            </div>
+            <h2> Phone Number: </h2>
+            <div id="details">
+                <p> +6012345678</p>
+            </div>
+            <h2> Status: </h2>
+            <div id="details">
+                <p> Host</p>
+            </div>
+            <div style="padding-left: 40%; padding-bottom: 5%; padding-top: 4%;">
+                <button id="edit">Edit</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+            <div id="footer1">
+                <h1>Company</h1>
+                <p>About Us</p>
+                <p>Help</p>
+                <p>Policies</p>
+                <p>Terms & Privacy</p>
+            </div>
+            <div id="footer2">
+                <h1>Hosting</h1>
+                <p>Why Host</p>
+                <p>Responsible Hosting</p>
+                <p>Community Center</p>
+            </div>
+        </div>
+        <div id="footer4">
+            <img src="logo_and_images\logo.png" alt="logo", width="10%">
+            <p>© 2024 Vacay, Sdn. Bhd. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="vacay.js"></script>
+</body>
+</html>
