@@ -3,7 +3,7 @@
 
 <head>
     <link rel="icon" href="logo_and_images\favicon.png">
-    <title>Profile</title>
+    <title>Edit Profile</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,65 +30,55 @@
         <div id="nav-menu" style="display: flex; flex-direction: column; align-items: center; position: absolute; top: 100px; right: 20px;">
             <div style="display: flex; align-items: center; width: fit-content; margin-bottom: 20px;">
                 <div style="width: 6vw; height: 6vw; border-radius: 50%; overflow: hidden; margin-right: 20px;">
-                    <img src="logo_and_images\guest.jpg" alt="user pic" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                    <img src="logo_and_images\admin.png" alt="user pic" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
                 </div>
                 <div style="display: flex; flex-direction: column;">
-                    <h2 style="margin-bottom: 5px;">Animul Aiman</h2>
-                    <h3 style="margin-top: 0;">Guest</h3>
+                    <h2 style="margin-bottom: 5px;">Zul Arrippin</h2>
+                    <h3 style="margin-top: 0;">Admin</h3>
                 </div>
             </div>
-                <a href="guest-mp.html">
-                    <button>Home</button>
-                </a>
-                <a href="guest-profile.html">
-                    <button>Profile</button>
-                </a>
-                <a href="guest-booking.html">
-                    <button>Booking List</button>
-                </a>
-                <a href="guest-refund.html">
-                    <button>Refund</button>
-                </a>
-                <a href="guest-history.html">
-                    <button>Booking History</button>
-                </a>
-                <a href="main.html">
-                    <button>Logout Account</button>
-                </a>
-            </div>
-        </div>    
+            <a href="admin-profile.html">
+                <button>Profile</button>
+            </a>
+            <a href="main.html">
+                <button>Logout Account</button>
+            </a>
+        </div>
     </header>
     <div
         style="padding-top: 150px; margin-left: 15%; display: flex; align-items: center; width: fit-content;margin-bottom: 20px;">
         <div
             style="background-color: aquamarine; width: 8vw; height: 8vw; border-radius: 50%; overflow: hidden; margin-right: 20px;">
             <!-- Add margin-right here -->
-            <img src="logo_and_images\guest.jpg" alt="user pic" ,
+            <img src="logo_and_images\admin.png" alt="user pic" ,
                 style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
         </div>
-        <h1 style="font-size: 50px;"> Animul Aiman </h1>
+        <h1 style="font-size: 50px;"> Zul Arrippin </h1>
     </div>
     <div class="appbox">
         <div class="profile" style="padding-top: 5%;">
             <h2> Name: </h2>
-            <div id="details">
-                <p> Aminul Aiman Bin Shaari Shah Zaman</p>
-            </div>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Your Name"
+                style="background-color: #A768A3; color:#FEFBF4 ; width: 51vw; height: 9vh; border-radius: 25px;text-align: left; padding-left: 5%;";>
+            </form>
             <h2> Email: </h2>
-            <div id="details">
-                <p> Aminul69@gmail.com</p>
-            </div>
+            <form>
+                <input type="text" id="email" name="email" placeholder="Your Email"
+                style="background-color: #A768A3; color:#FEFBF4 ; width: 51vw; height: 9vh; border-radius: 25px; text-align: left; padding-left: 5%;";>
+            </form>
             <h2> Phone Number: </h2>
-            <div id="details">
-                <p> +6012345678</p>
-            </div>
+            <form>
+                <input type="text" id="phone" name="phone" placeholder="Your Phone Number"
+                style="background-color: #A768A3; color:#FEFBF4 ; width: 51vw; height: 9vh; border-radius: 25px; text-align: left;padding-left: 5%;";>
+            </form>
             <h2> Status: </h2>
             <div id="details">
-                <p> Guest</p>
+                <p> Admin </p>
             </div>
             <div style="display: flex; justify-content: center; align-items: center; margin-top: 40px; margin-bottom: 40px;">
-                <a href="guest-profileedit.html">
-                    <button button id="whitebutton" style="width: 200px; height: 60px;">Edit Profile</button>
+                <a href="admin-profile.html">
+                    <button id="whitebutton" style="width: 200px; height: 60px;">Submit Changes</button>
                 </a>
             </div>
         </div>

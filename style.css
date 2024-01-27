@@ -335,15 +335,18 @@ figure button {
 #details {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Aligns items to the start of the cross axis (top for column direction) */
-  background-color: #faf1ef;
+  align-items: flex-start;
+  background-color: #a768a3;
   border-radius: 20px;
   width: 55vw;
-  height: fit-content; /* This will make the height equal to the content height */
-  margin-left: 10%; /* Add this line */
+  height: fit-content;
+  margin-left: 10%;
   margin-bottom: 30px;
-  color: #412f81;
-  font-size: 10px;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  transition: background-color 0.3s ease;
 }
 
 .appbox {
@@ -368,16 +371,25 @@ figure button {
   font-size: 20px;
 }
 
-#edit {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.appbox form input[type="text"] {
+  background-color: #A768A3;
+  color: #FEFBF4;
+  width: 51vw;
+  height: 8vh;
+  border-radius: 25px;
+  text-align: left;
+  color: white;
+  font-size: 20px; /* Adjust this value to your liking */
+  font-family: "Josefin Sans", sans-serif;
 }
+
+.appbox input::placeholder {
+  color: white;
+  font-size: 20px; /* Adjust this value to your liking */
+  font-family: "Josefin Sans", sans-serif;
+  margin-left:5%;
+}
+
 
 .refundcontainer {
   display: flex;
