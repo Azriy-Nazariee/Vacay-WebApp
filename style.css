@@ -42,8 +42,8 @@
 }
 
 .button-container button {
-  width: 100px; /* Adjust as needed */
-  height: 50px; /* Adjust as needed */
+  width: 250px; /* Adjust as needed */
+  height: 75px; /* Adjust as needed */
 }
 
 button {
@@ -60,6 +60,16 @@ button {
 
 button:hover {
   background-color: #7a4b7f;
+}
+
+#whitebutton {
+  background-color: white;
+  color: #7A4B7F;
+}
+
+#whitebutton:hover {
+  background-color: #5A2D5C;
+  color: white;
 }
 
 /* Body */
@@ -202,11 +212,16 @@ form {
 #footer {
   margin-top: auto;
   display: flex;
-  justify-content: space-around; /* Change this from center to space-around */
+  justify-content: space-around;
   background-color: #412f81;
   color: #faf1ef;
   width: 100%;
-  padding: 0 20px; /* Add horizontal padding */
+  padding: 0 20px;
+}
+
+#footer a {
+  color: #faf1ef; /* This will make the hyperlink color the same as the footer text color */
+  text-decoration: none; /* This will remove the underline */
 }
 
 #footer1,
@@ -471,4 +486,27 @@ figure button {
 
 #guest::placeholder {
   color: white;
+}
+
+#info{
+  text-align: justify;
+  margin-top: 150px;
+  justify-content: center;
+  text-align: center; 
+  padding-left: 20%; 
+  padding-right: 20%;
+  padding-bottom: 50px;
+}
+
+#info h1{
+  font-size: 50px;
+}
+
+#info h2{
+  font-size: 40px;
+}
+
+#info p, li{
+  font-size: 20px;
+  line-height: 1.5;
 }
