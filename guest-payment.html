@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="logo_and_images/favicon.png">
+    <title>Payment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+<body>
+    <header id="Header">
+        <img src="logo_and_images\logo.png" alt="logo" , width="10%">
+        <div id="formBox">
+            <form id="formh">
+                <input type="text" id="location" name="location" placeholder="Location">
+                <input type="text" id="no of guest" name="no of guest" placeholder="No Guest">
+                <input type="text" id="date" name="date" placeholder="Date">
+                <button type="submit" style="margin-left: 10px;">
+                    <img src="logo_and_images\search.png" alt="Submit" style="height:20px">
+                </button>
+            </form>
+        </div>
+        <button id="menu-button" style="width: 100px; height: 50px;">
+            <img src="logo_and_images\menu.png" style="width: 100%; height: auto;">
+        </button>
+        <div id="nav-menu" style="display: none; position: absolute; top: 50px; left: 0;">
+            <a href="guest-mp.html">Home</a>
+            <a href="guest-profile.html">Profile</a>
+            <a href="guest-booking.html">Booking List</a>
+            <a href="guest-refund.html">Refund</a>
+            <a href="guest-history.html">Booking History</a>
+            <a href="main.html">Logout Account</a>
+        </div>
+    </header>
+    <h1 style="padding-top: 150px; font-size: 50px; margin-bottom: 0; text-align: center;"> One Step Closer To Your
+        Dream Staycation! </h1> <!-- Add margin-bottom: 0; here -->
+    <h2 style="text-align: center; line-height: normal;"> Just Fill In Your Details and Pay The Amount Due. </br> As
+        Simple As That.</h2>
+    <div id="paymentbox">
+        <h1 style="font-size: 50px; margin-bottom: 20px; text-align: center;">
+            Your Booking Summary</h1>
+        <div style="display: flex; flex-direction: row; padding-top: 0px; margin-bottom: 10px;">
+            <div
+                style="margin-right:40px; margin-bottom: 10px; display: flex; flex-direction: column; align-items: center;">
+                <form style="margin-bottom: 10px;">
+                    <h3>Guest Name</h3>
+                    <input type="text" id="checkout" name="checkout" style="background-color: #A768A3; color:#FEFBF4 ; width: 145%; height: 25px; border-radius: 25px;">
+                </form>
+
+                <!--Div for the check in and check out boxes-->
+                <div style="display: flex; margin-bottom: 10px;">
+                    <div style="margin-right: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                        <h3>Check-In Date</h3>
+                        <form>
+                        <input type="date" id="checkin" name="checkin" style="background-color: #A768A3; color:#FEFBF4; border-radius: 25px; height: 25px">
+                        </form>
+                    </div>
+                    <div style="margin-left: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                        <h3>Check-Out Date</h3>
+                        <form>
+                        <input type="date" id="checkout" name="checkout" style="background-color: #A768A3; color:#FEFBF4; border-radius: 25px; height: 25px ">
+                        </form>
+                    </div>
+                </div>
+
+                <form style="margin-bottom: 10px;">
+                    <h3>Number of Guest</h3>
+                    <input type="number" id="numofguest" name="numofguest" style="height: 50px; border-radius: 25px; height: 25px; width: 135%">
+                </form>
+
+                <form style="margin-bottom: 10px;">
+                    <h3>Bank Account Number</h3>
+                    <input type="text" id="accnum" name="accnum" style="background-color: #A768A3; color:#FEFBF4; height:25px; border-radius: 25px; width: 145%">
+                </form>
+
+            </div>
+            <div
+                style="margin-left:40px; width: 50%; display: flex; flex-direction: column; align-items: center; margin-bottom: 20px;">
+                <h3>Residensi Idaman</h3>
+                <img src="logo_and_images\images.jpeg" alt="home" ,
+                    style="width: 100%; height: 100%; border-radius: 20px;">
+
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <form>
+                        <h3>Bank Name</h3>
+                        <select id="bankname" name="bankname" style="background-color: #A768A3; color:#FEFBF4; height: 45px; border-radius: 25px; text-align: center;">
+                            <option value="Affin Bank Berhad">Affin Bank Berhad</option>
+                            <option value="Agrobank">Agrobank</option>
+                            <option value="Al Rajhi Banking & Investment Corporation (Malaysia) Berhad">Al Rajhi Banking & Investment Corporation (Malaysia) Berhad</option>
+                            <option value="Alliance Bank Malaysia Berhad">Alliance Bank Malaysia Berhad</option>
+                            <option value="AmBank (M) Berhad">AmBank (M) Berhad</option>
+                            <option value="Bangkok Bank Berhad">Bangkok Bank Berhad</option>
+                            <option value="Bank Islam Malaysia Berhad">Bank Islam Malaysia Berhad</option>
+                            <option value="Bank Kerjasama Rakyat Malaysia">Bank Kerjasama Rakyam Malaysia</option>
+                            <option value="Bank Muamalat Malaysia Berhad">Bank Muamalat Malaysia Berhad</option>
+                            <option value="Bank of America Malaysia Berhad">Bank of America Malaysia Berhad</option>
+                            <option value="Bank of China (Malaysia) Berhad">Bank of China (Malaysia) Berhad</option>
+                            <option value="Bank of Tokyo-Mitsubishi UFJ (Malaysia) Bhd">Bank of Tokyo-Mitsubishi UFJ (Malaysia) Bhd</option>
+                            <option value="Bank Simpanan Nasional">Bank Simpanan Nasional</option>
+                            <option value="BNP Paribas Malaysia Berhad">BNP Paribas Malaysia Berhad</option>
+                            <option value="China Construction Bank Malaysia Berhad">China Construction Bank Malaysia Berhad</option>
+                            <option value="CIMB Bank Berhad">CIMB Bank Berhad</option>
+                            <option value="Citibank Berhad">Citibank Berhad</option>
+                            <option value="Deutsche Bank (Malaysia) Berhad">Deutsche Bank (Malaysia) Berhad</option>
+                            <option value="Hong Leong Bank Berhad">Hong Leong Bank Berhad</option>
+                            <option value="HSBC Bank Malaysia Berhad">HSBC Bank Malaysia Berhad</option>
+                            <option value="Industrial and Commercial Bank of China (Malaysia) Berhad">Industrial and Commercial Bank of China (Malaysia) Berhad</option>
+                            <option value="J.P. Morgan Chase Bank Berhad">J.P. Morgan Chase Bank Berhad</option>
+                            <option value="Kuwait Finance House (M) Berhad">Kuwait Finance House (M) Berhad</option>
+                            <option value="Malayan Banking Berhad">Malayan Banking Berhad</option>
+                            <option value="Mizuho Bank (Malaysia) Berhad">Mizuho Bank (Malaysia) Berhad</option>
+                            <option value="OCBC Bank (Malaysia) Berhad">OCBC Bank (Malaysia) Berhad</option>
+                            <option value="Public Bank Berhad">Public Bank Berhad</option>
+                            <option value="RHB Bank Berhad">RHB Bank Berhad</option>
+                            <option value="Standard Chartered Bank Malaysia Berhad">Standard Chartered Bank Malaysia Berhad</option>
+                            <option value="Sumitomo Mitsui Banking Corporation Malaysia Berhad">Sumitomo Mitsui Banking Corporation Malaysia Berhad</option>
+                            <option value="United Overseas Bank (Malaysia) Berhad">United Overseas Bank (Malaysia) Berhad</option>
+                        </select>
+                    </form>
+                    
+                </div>
+                
+            </div>
+        </div>
+        <h1> Total Price : RM150.00</h1>
+        <button style="width: 50%; height: 50px; font-size: large; margin-bottom: 20px;">Pay Now!</button>
+    </div>
+
+    <footer>
+        <div id="footer">
+            <div id="footer1">
+                <h1>Company</h1>
+                <p>About Us</p>
+                <p>Help</p>
+                <p>Policies</p>
+                <p>Terms & Privacy</p>
+            </div>
+            <div id="footer2">
+                <h1>Hosting</h1>
+                <p>Why Host</p>
+                <p>Responsible Hosting</p>
+                <p>Community Center</p>
+            </div>
+        </div>
+        <div id="footer4">
+            <img src="logo_and_images\logo.png" alt="logo" , width="10%">
+            <p>© 2024 Vacay, Sdn. Bhd. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="vacay.js"></script>
+</body>
+
+</html>
