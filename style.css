@@ -383,7 +383,7 @@ figure button {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.appbox input::placeholder {
+.appbox input::placeholder{
   color: white;
   font-size: 20px; /* Adjust this value to your liking */
   font-family: "Josefin Sans", sans-serif;
@@ -403,6 +403,9 @@ figure button {
   background-color: #fefbf4;
   margin-bottom: 20px;
   border-radius: 20px;
+  border-radius: 20px;
+  border-color: #dbc48f;
+  border-style: solid;
 }
 
 #profile {
@@ -494,6 +497,12 @@ figure button {
   align-items: center;
   align-self: center;
   justify-content: center; /* Optional: This will center the items vertically */
+}
+
+#paymentbox input::placeholder{
+  color: #fefbf4;
+  font-size: 15px; /* Adjust this value to your liking */
+  font-family: "Josefin Sans", sans-serif;
 }
 
 #guest::placeholder {
