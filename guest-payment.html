@@ -56,16 +56,18 @@
             </div>
         </div>    
     </header>
-    <h1 style="padding-top: 150px; font-size: 50px; margin-bottom: 0; text-align: center;"> One Step Closer To Your
+    <h1 style="padding-top: 150px; font-size: 50px; margin-bottom: 0; text-align: center;">Just One Step Closer To Your
         Dream Staycation! </h1> 
     <h2 style="text-align: center; line-height: 1.5;"> Just Fill In Your Details and Pay The Amount Due. </br>As
         Simple As That.</h2>
+        <!---Outher div for payment boxes-->
     <div id="paymentbox">
-        <h1 style="font-size: 50px; margin-bottom: 20px; text-align: center;">
+        <h1 style="font-size: 50px; margin-bottom: 20px; text-align: center; margin-top: 70px;">
             Your Booking Summary</h1>
-        <div style="display: flex; flex-direction: row; padding-top: 0px; margin-bottom: 10px;">
-            <div
-                style="margin-right:40px; margin-bottom: 10px; display: flex; flex-direction: column; align-items: center;">
+        <!---Div for details of Payment-->
+        <div style="display: flex; flex-direction: row; align-items: stretch; padding-top: 0px; margin-bottom: 10px; padding-right: 0px;">
+            <!--Left column-->
+            <div style="flex: 1;margin-bottom: 10px; display: flex; flex-direction: column; align-items: center;">
                 
                 <form style="margin-bottom: 10px;">
                     <h3>Guest Name</h3>
@@ -76,7 +78,7 @@
                 <!--Div for the check in and check out boxes-->
                 <div style="display: flex; margin-bottom: 10px;">
                     <div
-                        style="margin-right: 5px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+                        style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
                         <h3>Check-In Date</h3>
                         <form>
                             <input type="date" id="checkin" name="checkin" placeholder="Check-In Date"
@@ -106,12 +108,14 @@
                 </form>
 
             </div>
-            <div
-                style="margin-left:40px; width: 50%; display: flex; flex-direction: column; align-items: center; margin-bottom: 20px;">
+            <!--Right column-->
+            <div style="flex: 1;display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; margin-right:5%">
+                <!--Top row : Home Booked-->
                 <h3>Residensi Idaman</h3>
                 <img src="logo_and_images\images.jpeg" alt="home" ,
                     style="width: 100%; height: 100%; border-radius: 20px;">
 
+                <!--Bottom row : Bank Name-->
                 <div style="display: flex; flex-direction: column; align-items: center;">
                     <form>
                         <h3>Bank Name</h3>
@@ -162,8 +166,10 @@
 
             </div>
         </div>
+
+        <!---Price and Payment Button-->
         <h1> Total Price : RM150.00</h1>
-        <button style="width: 50%; height: 50px; font-size: large; margin-bottom: 20px; background-color: #412f81;">Pay Now!</button>
+        <button style="width: 50%; height: 50px; font-size: large; margin-bottom: 70px; background-color: #412f81;">Pay Now!</button>
     </div>
 
     <footer>

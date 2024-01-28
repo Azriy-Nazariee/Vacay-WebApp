@@ -286,7 +286,8 @@ form {
 }
 
 .grid-container p {
-  color: #412f81;
+  color: #211744;
+  font-size: 17.5px;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
 }
@@ -457,7 +458,7 @@ figure button {
 #propertyimage p {
   font-size: 20px;
   margin-bottom: 20px;
-  line-height: 1;
+  line-height: 1.5;
   text-align: justify;
   padding-right: 40px;
 }
@@ -466,6 +467,7 @@ figure button {
   font-size: 20px;
   margin-bottom: 20px;
   padding-right: 40px;
+  line-height: 1.5;
 }
 
 #bookingbox {
@@ -489,8 +491,8 @@ figure button {
   margin-bottom: 5%;
   height: fit-content;
   background-color: #fefbf4;
-  width: 60%;
-  height: 120vh;
+  width: 1000px;
+  height: 900px;
   border-radius: 20px;
   overflow: hidden;
   border-style: solid;
