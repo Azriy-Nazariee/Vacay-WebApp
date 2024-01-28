@@ -285,6 +285,12 @@ form {
   text-align: center;
 }
 
+.grid-container p {
+  color: #412f81;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
 /* Figures */
 
 figure {
@@ -394,11 +400,9 @@ figure button {
 .refundcontainer {
   display: flex;
   width: 90%;
+  height: 300px;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
   margin-left: 60px;
   background-color: #fefbf4;
   margin-bottom: 20px;
